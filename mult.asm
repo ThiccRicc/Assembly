@@ -1,0 +1,7 @@
+.ORIG x3200
+AND R2, R2, #0
+TARGET ADD R2, R2, R4
+ADD R5, R5, #-1
+BRp TARGET
+halt
+.end
